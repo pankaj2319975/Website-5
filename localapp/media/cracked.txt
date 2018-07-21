@@ -1,0 +1,2 @@
+wifi: uross
+password : B4:B4:62:66:5D:45:78:E1:9F:3E:7F:6A:5F "without ':'"
