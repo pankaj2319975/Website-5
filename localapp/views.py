@@ -7,7 +7,6 @@ from .models import Document
 
 
 def index(request):
-
     return render(request, 'local/home.html')
 
 def contact(request):
