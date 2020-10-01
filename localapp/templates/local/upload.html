@@ -1,6 +1,7 @@
 
 {% load static %}
 
+{% block title %} {% endblock title %}
 {% block content %}
   <form method="post" action="../upload/" enctype="multipart/form-data">
     {% csrf_token %}
